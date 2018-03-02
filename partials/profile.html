@@ -1,0 +1,18 @@
+<!-- Profile Page Partial -->
+<div id="profileContainer" class="profileComponent">
+	<h2>Profile</h2>
+	<h3>Welcome, {{ $ctrl.userDetails.name }}!</h3>
+	<div id="imageDiv">
+		<div>
+			<img ng-src="{{ $ctrl.userDetails.img }}" height="100" width="150">
+		</div>
+		<div>
+			<ul>
+				<li>Email: {{ $ctrl.userDetails.email }}</li>
+				<li>Phone Number: {{ $ctrl.userDetails.phone }}</li>
+				<li>Location: {{ $ctrl.userDetails.location }}</li>
+			</ul>
+		</div>
+	</div>
+	<a class="paddingBottom" href="">Edit Profile</a>
+</div>

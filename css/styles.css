@@ -1,0 +1,85 @@
+/* CSS Goes Here */
+/*@font-face {
+	font-family: 'Open Sans';
+	src: url('OpenSans/OpenSans-Regular.ttf');
+}*/
+
+body {
+	background-color: #63CEC2;
+	font-family: 'Open Sans';
+	color: #F7F8F9;
+}
+
+form {
+	background-color: #006666;
+	margin: 0 auto;
+	width: 400px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+#profileContainer {
+	background-color: #006666;
+	margin: 0 auto;
+	width: 600px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+#profileContainer ul {
+	text-align: left;
+}
+
+input, button {
+	display: block;
+	width: 200px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	border-radius: 15px;
+}
+
+button {
+	background-color: #ccc;
+	color: #F7F8F9;
+}
+
+ul {
+	list-style-type: none;
+}
+
+button:hover {
+	color: #63C3C2;
+}
+
+a:hover {
+	color: #63C3C2;
+}
+
+a:link {
+	color: #F7F8F9;
+}
+
+a:visited {
+	color: #F7F8F9;
+}
+
+img {
+	border-radius: 5px;
+	margin-left: 20px;
+}
+
+#imageDiv {
+	display: flex;
+	flex-direction: row;
+}
+
+h2 {
+	text-transform: uppercase;
+	padding-top: 30px;
+}
+
+.paddingBottom {
+	padding-bottom: 30px;
+}
+
+
